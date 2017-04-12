@@ -1,0 +1,29 @@
+{
+    "name": "node-red-contrib-mind-game",
+    "version": "1.0.0",
+    "description": "Mind game nodes.",
+    "node-red": {
+        "nodes": {
+            "mind-game": "nodes/mind-game.js"
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/heretse/node-red-contrib-mind-game.git"
+    },
+    "keywords": [
+        "node-red",
+        "mind-game",
+        "emotion",
+        "detection"
+    ],
+    "author": "winston_hsieh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/heretse/node-red-contrib-mind-game/issues"
+    },
+    "homepage": "https://github.com/heretse/node-red-contrib-mind-game#readme"
+}
