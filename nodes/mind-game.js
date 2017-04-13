@@ -14,8 +14,6 @@ module.exports = function(RED) {
                     node.warn(err);
                 }
 
-                Math.random() * (max - 0) + min;
-
                 if (body.length > 0) {
                     var index = getRandomInt(0, body.length - 1);
                     msg.payload = body[index];
@@ -39,12 +37,12 @@ module.exports = function(RED) {
         });
     }
     RED.nodes.registerType("analysis-mind-game", analysisMindGameNode);
+}
 
-    /**
-     * Returns a random integer between min (inclusive) and max (inclusive)
-     * Using Math.round() will give you a non-uniform distribution!
-     */
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
+/**
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
