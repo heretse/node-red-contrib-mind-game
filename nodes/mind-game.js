@@ -1,4 +1,4 @@
-var settings = require('../bluemix-settings.js'),
+var settings = require('../../../bluemix-settings.js'),
     nano = require('nano')(settings.couchUrl);
 
 module.exports = function(RED) {
