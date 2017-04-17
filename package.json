@@ -1,10 +1,10 @@
 {
-    "name": "node-red-contrib-mind-game",
+    "name": "node-red-contrib-sample",
     "version": "1.0.0",
-    "description": "Mind game nodes.",
+    "description": "A sample node for Node-RED.",
     "node-red": {
         "nodes": {
-            "mind-game": "nodes/mind-game.js"
+            "mind-game": "nodes/sample.js"
         }
     },
     "scripts": {
@@ -12,18 +12,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/heretse/node-red-contrib-mind-game.git"
+        "url": "git+https://github.com/heretse/node-red-contrib-sample.git"
     },
     "keywords": [
         "node-red",
-        "mind-game",
-        "emotion",
-        "detection"
+        "lower-case",
+        "upper-case"
     ],
     "author": "winston_hsieh",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/heretse/node-red-contrib-mind-game/issues"
+        "url": "https://github.com/heretse/node-red-contrib-sample/issues"
     },
-    "homepage": "https://github.com/heretse/node-red-contrib-mind-game#readme"
+    "homepage": "https://github.com/heretse/node-red-contrib-sample#readme"
 }
